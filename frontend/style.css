@@ -1,0 +1,106 @@
+.navbar-brand {
+  margin-left: 2rem;
+}
+.nav-link {
+  margin-right: 5rem;
+  font-size: 2rem;
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(189, 128, 16, 1) 0%,
+    rgba(205, 85, 252, 1) 100%
+  );
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#cart-btn {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -20px;
+  width: 28px;
+  height: 28px;
+  background: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.card {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-15px);
+  transition: transform 0.3s;
+}
+.text1 {
+  font-size: 1rem;
+  color: grey;
+}
+.info {
+  line-height: 17px;
+}
+.star {
+  color: #fbc02d;
+}
+.cost span {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+.teddy {
+  background-color: red;
+}
+.teddy:hover {
+  opacity: 0.8;
+}
+.cursor {
+  cursor: pointer;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+footer {
+  height: 5rem;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.main-product {
+  height: 10rem;
+}
+.main-price {
+  color: white !important;
+}
+
+.fa-times-circle {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.fa-arrow-left {
+  margin: auto 10px;
+  cursor: pointer;
+}
+
+.fa-arrow-right {
+  margin: auto 10px;
+  cursor: pointer;
+}
